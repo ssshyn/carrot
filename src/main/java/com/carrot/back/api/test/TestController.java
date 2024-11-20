@@ -17,4 +17,9 @@ public class TestController {
     public ResponseEntity<TestResponse> busan() throws JsonProcessingException {
         return ResponseEntity.ok(testService.busan());
     }
+
+    @GetMapping("/hello")
+    public ResponseEntity<String> hello() {
+        return ResponseEntity.ok("hello world");
+    }
 }
