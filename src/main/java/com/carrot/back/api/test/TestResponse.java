@@ -26,7 +26,7 @@ public class TestResponse {
     public static class GetFoodKr {
         private Header header;
         private List<Item> item;
-        // 페이징
+        // 페이징222
 //        private Integer numOfRows;
 //        private Integer pageNo;
 //        private Integer totalCount;
